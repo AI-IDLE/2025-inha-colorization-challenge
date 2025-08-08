@@ -1,0 +1,11 @@
+data/
+!data/.gitkeep
+
+models/
+!models/.gitkeep
+*.ckpt
+*.safetensors
+
+.DS_Store
+Thumbs.db
+.env
