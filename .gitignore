@@ -1,10 +1,12 @@
-data/
+data/*
 !data/.gitkeep
 
-models/
+models/*.ckpt
+models/**/*.ckpt
+models/*.safetensors
+models/**/*.safetensors
 !models/.gitkeep
-*.ckpt
-*.safetensors
+!models/**/.gitkeep
 
 .DS_Store
 Thumbs.db
